@@ -1,0 +1,53 @@
+14 / 22 points
+Regrade: 18 / 22 points
+
+1) Output of
+
+find -name "*.class" - None
+find -name ".metadata" - None
+
+2) Output of git log | grep Date
+
+Date:   Thu Feb 14 00:58:10 2013 -0800
+Date:   Wed Feb 13 23:58:34 2013 -0800
+Date:   Wed Feb 13 23:51:53 2013 -0800
+Date:   Sun Feb 10 21:45:46 2013 -0800
+Date:   Wed Feb 6 11:16:56 2013 -0800
+Date:   Tue Feb 5 11:22:52 2013 -0800
+Date:   Mon Feb 4 23:41:19 2013 -0800
+Date:   Mon Feb 4 22:37:31 2013 -0800
+
+
+3) Build and install the student program
+
+
+Did the build succeed? (Y/N) - Yes
+
+4) Run the student program
+
+a) Did the program crash? - No
+
+b) Did the questions from http://www.horstmann.com/sjsu/spring2013/cs185c/hw02/quiz.xml come up? - Yes
+
+c) When you click on a question, do you see the list of choices? - Yes [There is no space in between question and choices]
+
+d) When you click on a choice, does it return to the list of questions, coloring one of them red or green? - Error: HW2 has crashed
+Regrade: Yes
+
+e) When you click on an answered question, does it ignore the click? - NA
+
+Regrade: Yes
+
+5) Look at the student report.
+
+a) Does it explain the strategy for parsing the XML? Does the student describe what to do with each event? - Yes
+b) Does it explain the strategy for showing the list with red and green colors? - Yes
+c) Does it explain how to disable touch for answered questions? - No
+
+Regrade: Yes
+
+
+
+
+
+

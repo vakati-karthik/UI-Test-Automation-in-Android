@@ -1,0 +1,16 @@
+Homework 2
+-----------------------------------------------------------------------
+
+Name: Vakati, Karthik
+
+3) When the end element for text is reached, add it to an arraylist (questions). 
+When the end element for choice is reached, and when the number of choices are divisible by 4, push the question and 
+the correct choice along with the question into a map with the Question as the key and push the question and
+the last 4 choices in the choices arraylist into another map with question as the key again.
+
+6) As soon as a choice is selected from the response activity, the user is redirected to the MainActivity using an
+Intent which stores what color to choose for the question in the list in the MainActivity. This color is set
+by getting the correct choice for the current question from the map which is defined in the Question class.
+Every time when a question is clicked, I get the background of the TextView in the ListView. If it is null, then
+start the ResponseActivity or else don't start it. This way, if there is an answered question, it tries to get the
+background which is not null. So no further action will be taken.
